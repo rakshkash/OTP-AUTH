@@ -1,0 +1,30 @@
+{
+  "name": "otp-auth",
+  "version": "1.0.0",
+  "description": "Create a OTP generator and validator app We will create OTP genereator through email and validate it",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakshkash/OTP-AUTH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakshkash/OTP-AUTH/issues"
+  },
+  "homepage": "https://github.com/rakshkash/OTP-AUTH#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "crypto": "^1.0.1",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "router": "^1.3.8"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
